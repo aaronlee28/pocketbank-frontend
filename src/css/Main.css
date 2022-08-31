@@ -1,0 +1,215 @@
+
+.profilePicture{
+    order:1;
+    width: 50px;
+
+    height: 50px;
+    border-radius: 50%
+}
+.userName{
+    font-family: SFNSText-Regular;
+    text-align: left;
+    font-size: 1.1rem;
+    order:3;
+}
+
+.userAccountNumber{
+    font-family: SFNSText-Light;
+    text-align: left;
+    font-size: 0.9rem;
+    order:2;
+}
+.image-col{
+    text-align: left;
+}
+
+.user-name-col{
+    text-align: left;
+}
+.card-top-part{
+    border-bottom: solid;
+    border-width: 0.01rem;
+    margin-bottom: 0.5rem;
+
+}
+.card-middle-part{
+    margin-top: 1rem;
+
+}
+.card-bottom-part{
+    padding-top: 1.4rem;
+    margin-top:1rem;
+    border-top: solid;
+    border-width: 0.01rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.totalBalance{
+    display: block;
+    font-size: 0.7rem;
+}
+.currency{
+    font-family: SFNSText-Regular;
+    font-size: 1rem;
+    float: left;
+    position: relative;
+    top: 7.7px;
+
+}
+.balancedigit{
+    font-family: SFNSText-Bold;
+    font-size: 1.7rem;
+}
+.rates{
+    border: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 16px;
+    background-color: lightblue;
+    color: #083eab;
+    font-family: SFNSText-Regular;
+    font-size: 0.8rem;
+    float: left;
+    position: relative;
+    top: 7.7px;
+}
+
+.subbalance{
+    font-family: SFNSText-Bold;
+    font-size: 1rem;
+    float: right;
+    position: relative;
+    top: 7.7px;
+}
+.sdContainer{
+    position: relative;
+
+
+}
+
+.balancecard{
+    border-radius:0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.menuContainer{
+    position: relative;
+    margin-top: 0.5rem;
+    background-color: white;
+    color: white;
+}
+.transactionContainer{
+    position: relative;
+    background-color: white;
+    color: white;
+}
+.menuCard{
+    border-radius:0.5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    color: #083eab;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    height: 5rem;
+}
+
+.menutitle{
+    text-align: center;
+    font-family: SFNSText-Regular;
+    font-size: 0.8rem;
+    color: #083eab;
+
+}
+
+.menuIcon{
+    font-size: 1.8rem;
+}
+
+.carousel-container{
+    height: auto;
+    margin-top: -2rem;
+
+}
+
+.transactionCard{
+    border-radius:0.5rem;
+    margin-bottom: 7rem;
+    background-color: white;
+    color: #083eab;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    height: 21rem;
+}
+
+
+
+.transactiontoptext{
+    font-family: SFNSText-Bold;
+    font-size: 1rem;
+    border-bottom: solid;
+    height: 2rem;
+    color: #083eab;
+
+}
+
+.pushright{
+    text-align: right;
+}
+.transContainer{
+    border-bottom:solid;
+    border-color: darkgrey;
+    border-width: 0.1px;
+    padding-bottom:0.5rem;
+    margin-top:1rem;
+}
+.transIcon{
+    font-size: 0.9rem;
+
+}
+.transactionHomeTitle{
+    font-size: 0.9rem;
+    color: black;
+}
+
+.transactionHomeDate{
+    font-family: SFNSText-Light;
+    font-size: 0.8rem;
+    color: black;
+}
+.transactionHomeAmount{
+    font-family: SFNSText-Regular;
+    font-size: 0.8rem;
+    margin-top:0.3rem;
+    float: right;
+
+}
+
+.moreTransText{
+    text-align: center;
+    font-family: SFNSText-Regular;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #083eab;
+}
+a:link{
+    text-decoration: none !important;
+}
+
+
+
+@font-face {
+    font-family: SFNSText-Bold;
+    src: url("../font/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: SFNSText-Regular;
+    src: url("../font/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: SFNSText-Light;
+    src: url("../font/SFNSText-Light.otf");
+}

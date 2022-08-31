@@ -1,0 +1,170 @@
+.font-link{
+    font-family: SFNSText-Regular, sans-serif;
+}
+.modal{
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+    height: 35rem;
+    width: 500px;
+    background-color: white;
+}
+
+.modal-header{
+    place-content: center;
+}
+.modal-header .modal-footer{
+    padding: 10px;
+}
+
+.fa-circle-check{
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #2DC071;
+}
+
+.modal-title{
+    font-family:SFNSText-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #2DC071;
+    margin: 0;
+
+}
+
+
+
+.modal-body{
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: -webkit-center;
+}
+
+.modalTable{
+    width: 23rem;
+    margin-top: 2rem;
+}
+
+.modalRow{
+    height: 2.7rem;
+}
+
+.rightCol{
+    text-align: right;
+}
+
+.amountClass{
+    width: 220px;
+    height: 30px;
+    font-family: SFNSText-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.check-logo{
+    text-align: center;
+}
+.modal-header{
+    justify-content: center;
+    border: 0px #eeeeee;
+    border-radius: 0px;
+}
+.modal-footer{
+    justify-content: center;
+    border: 0px #eeeeee;
+    border-radius: 0px;
+}
+.modalButton{
+    margin-bottom: 3rem;
+    color: white;
+    background-color: red;
+    border: 0;
+    font-family: SFNSText-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width:  4rem;
+    border-radius: 7px;
+    box-shadow: none;
+}
+.modalButtonSuccess{
+    margin-bottom: 3rem;
+    color: white;
+    background-color: #2DC071;
+    border: 0;
+    font-family: SFNSText-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width:  4rem;
+    background-color: #2DC071;
+    border-radius: 7px;
+    box-shadow: none;
+}
+.fa-circle-xmark{
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: red;
+}
+.modalTitleFailed{
+    font-family:SFNSText-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: red;
+    margin: 0;
+}
+
+.modal-content {
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.modal-footer{
+    height:4rem;
+}
+
+@font-face {
+    font-family: SFNSText-Bold;
+    src: url("../font/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: SFNSText-Regular;
+    src: url("../font/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: SFNSText-Light;
+    src: url("../font/SFNSText-Light.otf");
+}

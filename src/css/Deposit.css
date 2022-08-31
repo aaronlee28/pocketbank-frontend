@@ -1,0 +1,201 @@
+
+a,a:active, a:link{
+    text-decoration: none !important;
+}
+.deposit-page-container{
+    margin-top: -4rem;
+
+    background-color: #083eab;
+
+}
+.top-page-container{
+    width: auto;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+
+}
+
+.deposit-back{
+    font-family: SFNSText-Light;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+    float: left;
+}
+.deposit-back-text{
+    font-family: SFNSText-Regular;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+    margin-bottom: 2rem;
+}
+.total-deposit-text{
+    margin-top: 1rem;
+    font-family: SFNSText-Light;
+    font-size: 1rem;
+}
+.rupiah-text{
+    float:left;
+    font-family: SFNSText-Light;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.deposit-balance{
+    color: white;
+    font-family: SFNSText-Bold;
+    font-size: 2rem;
+
+}
+
+.container-bottom{
+    background-color: #083eab;
+}
+.deposit-card {
+    background-color: white;
+    border-radius: 2.5rem 0 0 0;
+    height: 10rem;
+}
+
+.card-title{
+    font-family: SFNSText-Regular;
+    font-size: 1rem;
+    text-decoration: none !important;
+    margin-top: 1rem;
+}
+.deposit-inner-card{
+    background-color: white;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.1rem;
+}
+.auto-deposit-bool{
+    text-align: -webkit-right;
+}
+.auto-deposit-text{
+    font-family: SFNSText-Light;
+    font-size: 1rem;
+    width: fit-content;
+    text-align: right;
+    padding: 0.2rem;
+    margin-top:-1rem;
+    margin-bottom:-0.5rem;
+
+}
+.deposit-duration{
+    color: black;
+    font-family: SFNSText-Bold;
+    font-size: 1.1rem;
+}
+
+.deposit-number{
+    color: black;
+    font-family: SFNSText-Light;
+    font-size: 1rem;
+    border-bottom: solid;
+    border-width: 0.1rem;
+    border-color: lightgray;
+    padding-bottom: 0.7rem;
+}
+
+.second-title{
+    color: black;
+    font-family: SFNSText-Light;
+    font-size: 1rem;
+}
+.second-balance-date{
+    color: black;
+    font-family: SFNSText-Regular;
+    font-size: 1rem;
+}
+
+.more-deposit-card{
+    margin-top: 1rem;
+    background-color: white;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.1rem;
+    height: 3.3rem;
+}
+
+.more-deposit{
+    color: black;
+    text-align: center;
+    font-family: SFNSText-Regular;
+    font-size: 1rem;
+
+
+}
+.add-deposit-card{
+    margin-top: 1rem;
+    background-color: white;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.1rem;
+    height: auto;
+
+}
+.add-deposit{
+    text-align: left;
+    font-family: SFNSText-Bold;
+    float:left;
+    font-size: 3rem;
+    margin-top: -2rem;
+
+
+}
+.add-deposit-interest{
+    font-family: SFNSText-Regular;
+    font-size: 1rem;
+    margin-top: 1.85rem;
+}
+
+.six-percent{
+    height:4rem;
+}
+.eight-percent{
+    margin-top: -2rem;
+}
+.open-deposit-button{
+    font-family: SFNSText-Bold;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    height:3.4rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-width: 0.1rem;
+    border: none;
+    background-color: #083eab;
+}
+.more-deposit-back{
+    font-family: SFNSText-Light;
+    float: left;
+    font-size: 1.4rem;
+}
+.white-deposit-card{
+    background-color: white;
+    margin-bottom: 6rem;
+}
+.more-deposit-title{
+    font-family: SFNSText-Regular;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.more-deposit-inner-card{
+    background-color: white;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.1rem;
+    margin-bottom: 1rem;
+}
+@font-face {
+    font-family: SFNSText-Bold;
+    src: url("../font/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: SFNSText-Regular;
+    src: url("../font/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: SFNSText-Light;
+    src: url("../font/SFNSText-Light.otf");
+}

@@ -1,0 +1,65 @@
+
+.user-page-container{
+    margin-top: -4rem;
+
+    background-color: #083eab;
+}
+
+.top-page-container{
+    width: auto;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+
+}
+
+.user-main{
+    background-color:#083eab;
+}
+
+.form-title{
+    color: black;
+    font-family: SFNSText-Bold;
+
+}
+
+.submit-patch{
+    color: white;
+    background-color: #083eab;
+    border-radius: 7px;
+    border: none;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.form-input-patch{
+    width: 100%;
+    background: #4F4F4F;
+    margin-bottom: 1rem;
+}
+.logout-container{
+    text-align: center;
+    margin-top: 3rem;
+    width: 20rem;
+}
+.logout{
+    border: solid;
+    padding: 0.5rem;
+    color: white;
+    background-color: orangered;
+    width: 20rem;
+    border-radius: 7px;
+    font-size: 1.5rem;
+
+}
+@font-face {
+    font-family: SFNSText-Bold;
+    src: url("../font/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: SFNSText-Regular;
+    src: url("../font/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: SFNSText-Light;
+    src: url("../font/SFNSText-Light.otf");
+}

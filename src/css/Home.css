@@ -1,0 +1,99 @@
+.navbar{
+    width: -webkit-fill-available;
+    background-color: white !important;
+}
+.container-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.pocketbank {
+    min-width: max-content;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    margin-bottom: -10rem;
+}
+.hometext{
+font-size: 3rem
+}
+
+
+.buttons{
+    min-width: max-content;
+    margin-top: 20rem;
+
+
+}
+.registerbutton{
+    font-family: SFNSText-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 3rem;
+    width:  10rem;
+    color: white;
+    background-color: #083eab;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+.signinbutton{
+    font-family: SFNSText-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 3rem;
+    width:  10rem;
+    color: white;
+    background-color: #083eab;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+}
+.navbar-brand{
+    font-family:SFNSText-Bold;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 0rem;
+}
+.navbar {
+    place-content: center;
+}
+
+.hometext{
+    font-family: SFNSText-Bold;
+}
+
+.card{
+    top:1rem;
+    border: none;
+    background-color: #083eab;
+    color: white;
+}
+
+@font-face {
+    font-family: SFNSText-Bold;
+    src: url("../font/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: SFNSText-Regular;
+    src: url("../font/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: SFNSText-Light;
+    src: url("../font/SFNSText-Light.otf");
+}

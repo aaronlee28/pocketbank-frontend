@@ -1,0 +1,172 @@
+.user-link{
+    color: lightgray;
+    border: solid;
+    color: white;
+    border-width: 0.1rem;
+    border-radius: 7px;
+    padding: 0.4rem;
+    background-color: #083eab;
+    position: relative;
+    float:right;
+    margin:0.3rem;
+
+}
+.home-row{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 7px;
+    padding-top: 0.5rem;
+    border-color: dimgrey;
+    padding-right: 1rem;
+    border-width: 0.01rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.left-box{
+    margin-top: 1rem;
+}
+.admin-main-card{
+    background-color: white;
+}
+.admin-card{
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 7px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.info-card{
+    background-color: white;
+}
+.info-card{
+    color: black;
+    background-color: white;
+}
+.user-title {
+    font-size: 1rem;
+
+}
+.bottom-card{
+    margin-bottom: 6rem;
+}
+.generic-button{
+    height: 2rem;
+    background-color: #083eab;
+    color: white;
+}
+.generic-css-body{
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    border: solid;
+    border-radius: 7px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-color: black;
+    padding-left: 1rem;
+    border-width: 0.1rem;
+}
+.generic-css-body-2 {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    border: solid;
+    border-radius: 7px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-width: 0.1rem;
+}
+.bottom-c{
+    margin-top:-6rem;
+}
+.generic-text{
+    font-size: 1rem;
+    color: black;
+}
+.switch-div{
+    text-align: center;
+}
+.switch{
+    color: lightgray;
+    border: solid;
+    color: white;
+    background-color: #083eab;
+    border-width: 0.1rem;
+    border-radius: 7px;
+    padding: 0.5rem;
+    position: relative;
+    margin:0.3rem;
+    width: 10rem;
+}
+.hidethis{
+    text-align: right;
+}
+.hide{
+    position: fixed;
+    width: 1px;
+    color: transparent;
+    border: none;
+    justify-content: right;
+}
+.merch-form{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.setting-cont{
+    color: black;
+    text-align: center;
+}
+.setting-link{
+    color: lightgray;
+    border: solid;
+    color: white;
+    background-color: #083eab;
+    border-width: 0.1rem;
+    border-radius: 7px;
+    padding: 0.5rem;
+    position: relative;
+    margin:0.3rem;
+}
+.setting-body{
+    text-align: center;
+}
+.promo-cont{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 7px;
+    border-color: lightgrey;
+    border-width: 0.1rem;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+
+}
+.promo-banner{
+    height: 5rem;
+    width: fit-content;
+}
+
+.delete-promo{
+    border-radius: 7px;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    background-color: red;
+    color:white;
+    width: fit-content;
+}
+
+.submit-promo{
+    border-radius: 7px;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    background-color: #083eab;
+    color:white;
+}
+.promo-input{
+    color: white;
+}
+.promo-title{
+    padding-top: 1rem;
+}

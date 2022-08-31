@@ -1,0 +1,68 @@
+.page-container{
+    width: auto;
+    margin-top: 4rem;
+}
+
+.page-title{
+    color: black;
+    font-family: SFNSText-Bold, serif;
+    font-size: 1.5rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.filter-period{
+    text-align: center;
+}
+.filterPeriod{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 15px;
+    background-color: white;
+}
+.transactions-card{
+    border-radius:0.5rem;
+    margin-bottom: 7rem;
+    background-color: white;
+    color: #083eab;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    height: auto;
+}
+.searchbar{
+    border-radius: 8px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 15px;
+    margin-bottom: 0.5rem;
+}
+
+.transaction-description{
+    font-family: SFNSText-Regular, serif;
+    color: black;
+    font-size: 0.8rem;
+}
+.download-container{
+    text-align: center;
+
+}
+.download-button{
+    background-color: #083eab;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    height: 2rem;
+}
+
+@font-face {
+    font-family: SFNSText-Bold;
+    src: url("../font/SFNSText-Bold.otf");
+}
+@font-face {
+    font-family: SFNSText-Regular;
+    src: url("../font/SFNSText-Regular.otf");
+}
+@font-face {
+    font-family: SFNSText-Light;
+    src: url("../font/SFNSText-Light.otf");
+}
