@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# E-Wallet Backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+1. Initialize the project
+    - ```go mod init```
+2. Get all the dependencies required
+    - ```go get ./...```
 
-In the project directory, you can run:
+Login Info for test and explore purposes: 
+- ```email: aaronlee@gmail.com```
+```password: password1```
+- ```email: peterparker@gmail.com```
+```password: password2```
+- ```email: admin@admin.com```
+  ```password: admin```
+- ```email: markruffalo@gmail.com```
+  ```password: mark1```
+- ```email: johndoe@gmail.com```
+  ```password: johnny```
+## About the Project
+This is part of a full-stack E-Wallet project. Go Languange is solely used to build the application, using Gin as the HTTP web framework and GORM as the ORM library. Postgres is the DB of choice for this project.  
 
-### `npm start`
+All endpoints could be found in the API Documentation linked below. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+API Documentation:
+https://pocket-bank-backend.herokuapp.com/docs/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployed project can be accessed here:
+1. Frontend: https://pocket-bank-frontend.herokuapp.com/
+2. Backend: https://pocket-bank-backend.herokuapp.com/
 
-### `npm test`
+The PG_DUMP file of the database could be found in the main package. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Database ERD 
+![ERD](./image/entity_relationship_diagram.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Test
+![test](./image/test_coverage.png)
