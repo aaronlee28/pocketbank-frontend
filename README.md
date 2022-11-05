@@ -1,4 +1,4 @@
-# E-Wallet Backend
+# E-Wallet Frontend
 
 ## Getting Started
 
