@@ -17,10 +17,9 @@ Login Info for test and explore purposes:
 - ```email: johndoe@gmail.com```
   ```password: johnny```
 ## About the Project
-This is part of a full-stack E-Wallet project. Go Languange was solely used to build the application, using Gin as the HTTP web framework and GORM as the ORM library for backend. Postgres is the DB of choice for this project.  React.JS and CSS were used to create the frontend. 
+This is part of a full-stack E-Wallet project. Go Language is solely used to build the application, using Gin as the HTTP web framework and GORM as the ORM library. Postgres is the DB of choice for this project.  
 
-
-All endpoints could be found in the API Documentation linked below. 
+All endpoints can be found in the API Documentation linked below. 
 
 API Documentation:
 https://pocket-bank-backend.herokuapp.com/docs/
@@ -29,7 +28,7 @@ https://pocket-bank-backend.herokuapp.com/docs/
 1. Frontend: https://pocket-bank-frontend.herokuapp.com/
 2. Backend: https://pocket-bank-backend.herokuapp.com/
 
-The PG_DUMP file of the database could be found in the main package. 
+The PG_DUMP file of the database can be found in the main package. 
 
 
 
