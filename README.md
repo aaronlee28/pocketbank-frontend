@@ -28,12 +28,7 @@ https://pocket-bank-backend.herokuapp.com/docs/
 1. Frontend: https://pocket-bank-frontend.herokuapp.com/
 2. Backend: https://pocket-bank-backend.herokuapp.com/
 
-The PG_DUMP file of the database can be found in the main package. 
 
 
 
-## Database ERD 
-![ERD](./image/entity_relationship_diagram.png)
 
-## Test
-![test](./image/test_coverage.png)
