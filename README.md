@@ -2,10 +2,8 @@
 
 ## Getting Started
 
-1. Initialize the project
-    - ```go mod init```
-2. Get all the dependencies required
-    - ```go get ./...```
+1. Get all the dependencies required
+    - ```npm i```
 
 Login Info for test and explore purposes: 
 - ```email: aaronlee@gmail.com```
